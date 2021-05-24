@@ -1,0 +1,130 @@
+/*Welcome area*/
+.welcome a {
+    background-color: #A93BDC;
+}
+.welcome a:hover { background-color: #8103A4 }
+nav ul li a.nav-active { color: #A93BDC }
+nav ul li a:hover {
+    color: #A93BDC;
+}
+
+/*Bootstrap Progressbar*/
+.progress-bar { background-color: #A93BDC }
+
+/*Parallax*/
+.parallax1 i {
+    color: #A93BDC;
+    font-size: 60px;
+}
+.parallax2 a {
+    background-color: #A93BDC;
+}
+.parallax2 a:hover { background-color: #8103A4 }
+.parallax5 a {
+    background-color: #A93BDC;
+}
+.parallax5 a:hover { background-color: #8103A4 }
+.parallax6 h2 {
+    color: #A93BDC;
+}
+
+/*Our features area*/
+.about-box-icon i {
+    color: #A93BDC;
+}
+
+/*Our service area*/
+.single_our_service i {
+    color: #A93BDC;
+}
+.single_our_service i:hover {
+    background-color: #A93BDC;
+}
+
+/*Contact us*/
+.contact a {
+    background-color: #A93BDC;
+}
+.contact a:hover { background-color: #8103A4 }
+
+/*Portfolio area*/
+.port_filter ul li:hover,
+.port_filter ul li.active {
+    background-color: #A93BDC;
+}
+
+/*Pricing tables*/
+.price-popular .pricing-wrapper-inner h2 {
+    background-color: #A93BDC;
+    border-color: #A93BDC;
+}
+.pricing-wrapper-inner h2 {
+    color: #A93BDC;
+}
+.price-popular .pricing-wrapper-inner h2 {
+    background-color: #A93BDC;
+    border-right: 3px solid #A93BDC;
+    -moz-box-shadow: 2px 2px 0 0 #A93BDC;
+    -webkit-box-shadow: 2px 2px 0 0 #A93BDC;
+    box-shadow: 2px 2px 0 0 #A93BDC;
+}
+.price-join a {
+    background-color: #A93BDC;
+}
+.price-join a:hover { background-color: #8103A4 }
+
+/*back to top button*/
+.back-to-top a {
+    background-color: #A93BDC;
+}
+.back-to-top a:hover { background-color: #8103A4 }
+
+/*Contact us section 2*/
+.contact-col i {
+    color: #A93BDC;
+}
+
+/*Footer*/
+.footer-nav ul li a {
+    color: #A93BDC;
+}
+.footer-nav ul li:hover a {
+    background-color: #A93BDC;
+}
+
+/*Team members and portfolio image hover effect*/
+.view a.info {
+    background: #A93BDC none repeat scroll 0 0;
+}
+.view:hover a.info:hover { background: #8103A4 }
+.view-first ul li a {
+    color: #A93BDC;
+}
+.view-first ul li a:hover {
+    background: #A93BDC;
+}
+
+/*Bootstrap nav for small devices*/
+@media (max-width: 767px) { 
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus { background-color: #A93BDC }
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus { background-color: #A93BDC }
+	.navbar-inverse .navbar-toggle .icon-bar {background-color:#A93BDC;}
+}
+@media (min-width: 768px) { 
+	.navbar-inverse .navbar-nav > li > a:hover{color:#A93BDC;}
+    nav ul li a.nav-active:before { background: #A93BDC;}
+    .navbar-inverse .navbar-nav > li > a.nav-active { color: #A93BDC;}
+}
+
+/*Tooltip*/
+.tooltip.top .tooltip-arrow { border-top-color: #A93BDC;}
+.tooltip-inner { background: #A93BDC;border: solid 1px #A93BDC;}
+
+/*style switcher*/
+#style_changer a.panel-button { color: #A93BDC }
+#style_changer a.panel-button:hover {
+    background-color: #A93BDC;
+    border: 1px solid #AA3DDE;
+}
